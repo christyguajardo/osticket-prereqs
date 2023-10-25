@@ -35,7 +35,13 @@ Go to Azure and copy Public IP Address of VM
 
 Install/Enable IIS in Windows ( Internet Information Services)
 
+![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/05423c0e-d071-4529-8038-953ed7bf1265)
+
+
 Install PHP Manager 
+
+![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/aec0b5dd-191d-4cca-8d76-af26b67e516a)
+
 
 Install Rewrite Module 
 
