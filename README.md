@@ -88,7 +88,7 @@ Search for Internet Information Services
 
 Click on the expand icon 
 
-Athen click on World Wide Web services
+And then click on World Wide Web services
 
 Under Application Development Features – Click on CGI
 
@@ -149,7 +149,7 @@ Click Install
 
 Click Finish 
 
-Next  we are going to create a directory C:\PHP
+Next, we are going to create a directory C:\PHP
 
 ![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/8ea23f44-8dae-4c50-9afd-d163019855c7)
 
