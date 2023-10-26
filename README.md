@@ -21,9 +21,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Create Virtual Machine in Azure
-- Item 2
-- Item 3
+- Create a Resource Group in Azure
+- Create a Virtual Machine (VM) in Azure
+- Open Installation Files Link (holds downloads for installing)
 - Item 4
 - Item 5
 
@@ -35,8 +35,8 @@ Go to Azure and copy Public IP Address of VM
 
 Install/Enable IIS in Windows ( Internet Information Services)
 
-![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/05423c0e-d071-4529-8038-953ed7bf1265)
 
+![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/05423c0e-d071-4529-8038-953ed7bf1265)
 
 Install PHP Manager 
 
@@ -80,6 +80,18 @@ Click on Programs
 Click on Turn Windows features on or off
 
 ![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/e50c71ea-e6db-4717-a2cd-2e12da5e17d8)
+
+Install/Enable IIS in Windows ( Internet Information Services)
+
+Install / Enable IIS in Windows WITH
+
+CGI and Common HTTP Features
+
+World Wide Web Services -> Application Development Features ->
+
+[X] CGI
+
+[X] Common HTTP Features
 
 
 Search for Internet Information Services
