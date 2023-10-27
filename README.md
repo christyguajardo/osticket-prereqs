@@ -24,15 +24,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Create a Resource Group in Azure
 - Create a Virtual Machine (VM) in Azure
 - Open Installation Files Link (holds downloads for installing)
-- Item 4
-- Item 5
-
-<h2>Installation Steps</h2>
-
-We are going to Remote Desktop into newly created VM
-
-Go to Azure and copy Public IP Address of VM 
-
+  
 Install various prerequisites '🖥️
 
     '💡 Install/Enable IIS in Windows
@@ -46,6 +38,18 @@ Install various prerequisites '🖥️
     '💡Install MySQL 5.5.62
 
     '💡Install osTicket 
+
+    '💡Install HeidiSQL
+
+- Item 4
+- Item 5
+
+<h2>Installation Steps</h2>
+
+We are going to Remote Desktop into newly created VM
+
+Go to Azure and copy Public IP Address of VM 
+
 
     
 
