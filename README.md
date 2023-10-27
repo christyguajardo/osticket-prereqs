@@ -33,10 +33,29 @@ We are going to Remote Desktop into newly created VM
 
 Go to Azure and copy Public IP Address of VM 
 
+Install various prerequisites '🖥️
+
+    '💡 Install/Enable IIS in Windows
+   
+    '💡 Intall PHP Manager for IIS
+
+    '💡 Install Rewrite Module
+
+    '💡 Install PHP.7.3.8
+
+    '💡Install MySQL 5.5.62
+
+    '💡Install osTicket 
+
+    
+
 Install/Enable IIS in Windows ( Internet Information Services)
 
-
 ![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/05423c0e-d071-4529-8038-953ed7bf1265)
+
+go to Google Drive where downloads have been saved
+
+![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/57ba7425-ca0c-4b67-a999-f1a6f7184d0d)
 
 Install PHP Manager 
 
