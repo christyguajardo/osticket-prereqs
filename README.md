@@ -49,32 +49,17 @@ Install various prerequisites '🖥️
 
 We are going to Remote Desktop into newly created VM
 
-Go to Start menu and type in: Remote Desktop 
+ 💡Go to Azure and copy Public IP Address of VM 
 
-Paste in IP address of VM (in Azure)– Click Connect 
+ ![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/62e6d700-f50c-4b26-9383-10b6f1e8efd7)
 
-![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/62e6d700-f50c-4b26-9383-10b6f1e8efd7)
+ 💡Go to Start menu and type in: Remote Desktop - paste copied IP address -  Click Connect 
 
 ![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/5acf87ff-8ec3-47f4-924f-1d9895b8c7fe)
-
-
-
-
-Go to Azure and copy Public IP Address of VM 
 
 Go to Google Drive (Installation File Link) where downloads have been saved
 
 ![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/57ba7425-ca0c-4b67-a999-f1a6f7184d0d)
-
-
-![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/62e6d700-f50c-4b26-9383-10b6f1e8efd7)
-
-Go to Start menu and type in: Remote Desktop 
-
-Paste in IP address – Click Connect 
-
-![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/5acf87ff-8ec3-47f4-924f-1d9895b8c7fe)
-
 
 Click on Use a different account and enter credentials from your virtual machine in Azure
 
