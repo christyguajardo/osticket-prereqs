@@ -49,11 +49,11 @@ Install various prerequisites '🖥️
 
 We are going to Remote Desktop into newly created VM
 
- 💡Go to Azure and copy Public IP Address of VM 
+Go to Azure and copy Public IP Address of VM 
 
  ![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/62e6d700-f50c-4b26-9383-10b6f1e8efd7)
 
- 💡Go to Start menu and type in: Remote Desktop - paste copied IP address -  Click Connect 
+Go to Start menu and type in: Remote Desktop - paste copied IP address -  Click Connect 
 
 ![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/5acf87ff-8ec3-47f4-924f-1d9895b8c7fe)
 
@@ -76,11 +76,11 @@ Click on Turn Windows features on or off
 
 ![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/e50c71ea-e6db-4717-a2cd-2e12da5e17d8)
 
-Install/Enable IIS in Windows ( Internet Information Services)
-
-Install / Enable IIS in Windows WITH
+Install/Enable IIS (Internet Information Services) in Windows WITH
 
 CGI and Common HTTP Features
+
+AND IIS Management Console
 
 World Wide Web Services -> Application Development Features ->
 
@@ -119,7 +119,9 @@ This page should appear
 
 Default IIS is now running 
 
-Next we are going to download PHP Manager for IIS
+Next we are going to download PHP Manager - go to intstallation files right click on PHPManagerforIIS 
+
+Click download anyway
 
 ![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/b454153d-6ce4-49d0-975b-479264dab93e)
 
@@ -173,7 +175,7 @@ Click select folder - extract
 
 Next we are going to install VC redist
 
-Once again we are going to dowload from the Google drive 
+Once again we are going to dowload from the Google Installation file  
 
 ![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/f0876cfd-3563-437b-ad4a-689a930cf627)
 
@@ -181,7 +183,8 @@ Click on download anyway
 
 ![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/f4a7e428-565d-4837-801e-271e01801c3b)
 
-Double click on  
+Double click on  ![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/d800038f-4e49-4ffd-943e-40ea5b112e45)
+
 
 ![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/b86d69cc-e36a-4288-a3ed-2fad41b42fa2)
 
@@ -417,10 +420,11 @@ Clean up time:
 ![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/a8ce14a5-f0e2-4276-8d6c-95cd8e8c4d61)
 
 
-<
+This concludes the demonstration. In the next tutorial, we are going to explore osTicket lifecycle. 
+
+
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
