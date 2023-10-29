@@ -4,6 +4,9 @@
 <h1>osTicket - Prerequisites and Installation</h1>
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
+We are starting the demonstration with the fact that the Virtual Machine and Resource Group already created. 
+
+There are alot of steps in this demonstration. I hope to walk you through the process and with supporting print screens and instructions. 
 
 <h2>Video Demonstration</h2>
 
@@ -21,8 +24,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Create a Resource Group in Azure
-- Create a Virtual Machine (VM) in Azure
+- Create a Resource Group in Azure (already installed)
+- Create a Virtual Machine (VM) in Azure (already installed)
 - Open Installation Files Link (holds downloads for installing)
   
 Install various prerequisites '🖥️
@@ -46,32 +49,22 @@ Install various prerequisites '🖥️
 
 We are going to Remote Desktop into newly created VM
 
+Go to Start menu and type in: Remote Desktop 
+
+Paste in IP address of VM (in Azure)– Click Connect 
+
+![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/62e6d700-f50c-4b26-9383-10b6f1e8efd7)
+
+![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/5acf87ff-8ec3-47f4-924f-1d9895b8c7fe)
+
+
+
+
 Go to Azure and copy Public IP Address of VM 
-
-
-Install/Enable IIS in Windows ( Internet Information Services)
-
-![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/05423c0e-d071-4529-8038-953ed7bf1265)
 
 Go to Google Drive (Installation File Link) where downloads have been saved
 
 ![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/57ba7425-ca0c-4b67-a999-f1a6f7184d0d)
-
-Install PHP Manager 
-
-![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/aec0b5dd-191d-4cca-8d76-af26b67e516a)
-
-
-Install Rewrite Module 
-
-![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/ab837e60-5ce1-47b9-b5f2-9b2af97722f1)
-
-
-Download PHP7.3.8 
-
-Download and install VC redist
-
-Download and install mySQL
 
 
 ![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/62e6d700-f50c-4b26-9383-10b6f1e8efd7)
