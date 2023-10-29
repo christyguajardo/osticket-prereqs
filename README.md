@@ -209,26 +209,226 @@ Click select folder - extract
 
 ![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/d9066ce6-a8e1-4687-92f8-9a802c62373c)
 
+Next we are going to install VC redist
+
+Once again we are going to dowload from the Google drive 
+
+![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/f0876cfd-3563-437b-ad4a-689a930cf627)
+
+Click on download anyway
+
+![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/f4a7e428-565d-4837-801e-271e01801c3b)
+
+Double click on  
+
+![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/b86d69cc-e36a-4288-a3ed-2fad41b42fa2)
+
+Click on box – I agree to the license terms and conditions
+Click Install 
+
+Next we are setting up MYSQL
+
+![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/d8fa88a1-c008-467b-b030-466f47fc8850)
+
+![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/d73b3087-a5e0-4cb0-9936-f6bae9a0a1f6)
+
+Once the setup is sucessful, then it's time to download
+
+Go to downloads folder and select ![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/3869fcaa-7151-4923-834f-e02aed192ae1)
+
+![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/e72ee54c-4ecb-463a-b8d1-e9925756a5a3)
+
+Click on next 
+
+![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/cb36ce8e-2c93-4909-8c77-45d55f4beb1b)
+
+
+Click on I accept the terms in the License Agreement
+
+Click Next  
+
+![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/30072c94-593c-464e-90bc-0f0691fb2d01)
+
+Click on typical
+
+![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/cc035f74-dccc-4f94-a95d-b5ed5860bb5a)
+
+Next click on Install
+
+Click Finish 
+
+![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/fdb7ec6a-4293-490d-ad48-38e7f2676d6d)
+
+
+ Click Next 
+
+![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/faeb5549-25c5-418f-ab0e-1ec864ac6173)
+
+
+Click on Standard Configuration 
+
+Click Next 
+
+![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/c31c84da-4c19-443f-8a0c-0636986ed804)
+
+Click Next
+
+![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/1867178f-338e-45df-9782-10d37baf5f10)
+
+
+Set password
+
+![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/5b173c7f-b914-4609-8a74-8ddee10fa293)
+
+
+Click execute
+
+![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/f8eca997-5a5c-48ab-9630-af8c608791e9)
+
+Click Finish
+
+![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/a65bbbba-9d09-4eb5-af4e-f1c76befa40b)
+
+
+Next we re going to do configurations inside of IIS
+
+Go to remote Desktop and search for IIS, right click and run as administrator
+
+Doubleclick on PHP Manager 
+
+![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/b80e70e6-7c82-44f8-bfea-d279a7074c1c)
+
+Click on register new PHP 
+Select ? 
+Click Open 
+
+
+![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/45dc1891-f77f-4e00-a809-56ebedcd7ebc)
+
+Install osTicket v1.15.8
+
+   "💡Download osTicket from the Installation Files Folder
+
+   "💡Extract and copy “upload” folder to c:\inetpub\wwwroot
+ 
+   "💡Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”
+
+once downloaded, open file 
+
+Double click ![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/83757201-2cb7-493f-b03d-5941d4000f30)
+
+
+![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/8a8bf1ce-6461-48d2-adce-4f831871a484)
+
+
+OPen additional file --- Drag upload folder to wwwrroot
+
+![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/b1181189-fb01-4f1c-9401-1471f7759586)
+
+
+![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/b4b6c46a-3201-4f17-bfcb-7a904362989f)
+
+
+![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/bd6c4530-4d9a-46dd-90fa-c74307833e0b)
+
+![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/d4d5a037-67ba-4154-8f2e-505bfd87dbf0)
+
+Rename upload file to read osTicket
+
+![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/0cf8ef24-c2c4-4fa9-b821-cc42ae1a160e)
+
+Let’s go back to IIS
+Click on restart 
+Go to sites -> Default -> osTicket
+•	On the right, click “Browse *:80”
+
+![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/098bf229-5e62-49d0-9618-dc622254b292)
+
+
+We have made it to osTicket! Congratulations! "👏
+
+![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/04edf95e-67ee-4055-a9a0-938cd9ec0a8f)
+
+Note that some extensions are not enabled
+   '💡	Go back to IIS, sites -> Default -> osTicket
+   
+   "💡	Double-click PHP Manager
+   
+   "💡	Click “Enable or disable an extension”
+   
+   "💡 Enable: php_imap.dll
+   
+   '💡	Enable: php_intl.dll
+   
+   "💡	Enable: php_opcache.dll
+   
+   '💡	Refresh the osTicket site in your browse, observe the changes
+
+
+![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/9727892e-a80b-437b-b0f6-6823e4098eeb)
+
+
+![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/a32a10e9-713e-4832-a33b-4fcddb6ff91a)
+
+
+Refresh osTicket - Extensions should now been enabled
+
+![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/3af01bad-6f76-49a2-8fc6-f39bc951266c)
+
+
+Rename: ost-config.php 
+
+     '💡From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
+     
+	   '💡To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+    
+![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/95fccffb-021c-4c30-aab1-8ecf22eb19dd)
+
+Assign Permissions: ost-config.php
+
+Disable inheritance -> Remove All
+
+New Permissions -> Everyone -> All
+
+
+![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/10b7c87c-fbf2-422a-8479-a3e57c3dc9f4)
+
+
+Continue Setting up osTicket in the browser (click Continue)
+
+Name Helpdesk
+
+Default email (receives email from customers)
+
+
+![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/9f6f475d-1680-41f1-ba81-80704e95bf52)
+
+From the Installation Files, download and install HeidiSQL.
+
+"💡Open Heidi SQL
+"💡Create a new session, root/Password1
+"💡Connect to the session
+"💡Create a database called “osTicket”
+
+
+ ![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/03bf4534-299e-4538-b50d-2b7d7f3f03fa)
+
+
+![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/7ce7c4a8-aff3-48ef-8a4d-84f3d97930bd)
+
+
+![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/ec93d731-cf0a-44c5-845d-76dd74962d70)
+
+
+![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/e88d45b9-19fa-420b-8095-b12795096c94)
 
 
 
 
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+
+<
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
