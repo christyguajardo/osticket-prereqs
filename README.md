@@ -27,22 +27,20 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   
 Install various prerequisites '🖥️
 
-    '💡 Install/Enable IIS in Windows
+    💡 Install/Enable IIS in Windows
    
-    '💡 Intall PHP Manager for IIS
+    💡 Intall PHP Manager for IIS
 
-    '💡 Install Rewrite Module
+    💡 Install Rewrite Module
 
-    '💡 Install PHP.7.3.8
+    💡 Install PHP.7.3.8
 
-    '💡Install MySQL 5.5.62
+    💡 Install MySQL 5.5.62
 
-    '💡Install osTicket 
+    💡 Install osTicket 
 
-    '💡Install HeidiSQL
+    💡 Install HeidiSQL
 
-- Item 4
-- Item 5
 
 <h2>Installation Steps</h2>
 
@@ -51,13 +49,11 @@ We are going to Remote Desktop into newly created VM
 Go to Azure and copy Public IP Address of VM 
 
 
-    
-
 Install/Enable IIS in Windows ( Internet Information Services)
 
 ![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/05423c0e-d071-4529-8038-953ed7bf1265)
 
-go to Google Drive where downloads have been saved
+Go to Google Drive (Installation File Link) where downloads have been saved
 
 ![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/57ba7425-ca0c-4b67-a999-f1a6f7184d0d)
 
@@ -92,9 +88,7 @@ Click on Use a different account and enter credentials from your virtual machine
 ![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/f465fd23-a76d-41ee-bb89-27182c664600)
 ![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/5df66413-7e03-42bc-ae08-a3b20958a9fa)
 
-Right Click on Start Menu
-Type run: 
-
+Right Click on Start Menu - Type run: 
 
 Click on Programs 
 
@@ -123,9 +117,9 @@ Search for Internet Information Services
 
 Click on the expand icon 
 
-And then click on World Wide Web services
+'💡And then click on World Wide Web services
 
-Under Application Development Features – Click on CGI
+'💡Under Application Development Features – Click on CGI
 
 ![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/b894c9aa-95bc-4748-bf29-fda1e498267b)
 
@@ -155,21 +149,15 @@ Click Next
 
 ![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/163cab67-0420-4b9d-8d7c-72760536e660)
 
-
-
-
 Click on I agree
 
 ![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/ae2487ab-948c-44c6-92a6-f1b45077d9f5)
-
 
 Installation is complete. Click Close 
 
 ![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/cecbee98-0f9f-413d-895d-6b68e759d49f)
 
-Install Rewrite Module: paste below in browser
-
-Click download
+Install Rewrite Module: (Once again go to Installation Files Folder) and select rewrite_amd64_en-US and paste in browser
 
 Click on rewrite_amd64_en-US to continue downloading 
 
@@ -181,23 +169,19 @@ Click Install
 
 ![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/80fa8954-a792-4c07-bce3-8cc52c9b12cd)
 
-
 Click Finish 
 
 Next, we are going to create a directory C:\PHP
 
 ![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/8ea23f44-8dae-4c50-9afd-d163019855c7)
 
-
 Add a new folder – PHP
 
 ![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/dce04c88-6b5a-4e39-97bf-b0c468dec61b)
 
-
 To zip 
 
 ![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/4deff7b2-a8b6-492a-a3a1-84a3d901c772)
-
 
 Right click  on       and select install 
 
@@ -307,11 +291,11 @@ Click Open
 
 Install osTicket v1.15.8
 
-   "💡Download osTicket from the Installation Files Folder
+   💡Download osTicket from the Installation Files Folder
 
-   "💡Extract and copy “upload” folder to c:\inetpub\wwwroot
+   💡Extract and copy “upload” folder to c:\inetpub\wwwroot
  
-   "💡Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”
+   💡Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”
 
 once downloaded, open file 
 
@@ -350,19 +334,19 @@ We have made it to osTicket! Congratulations! "👏
 ![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/04edf95e-67ee-4055-a9a0-938cd9ec0a8f)
 
 Note that some extensions are not enabled
-   '💡	Go back to IIS, sites -> Default -> osTicket
+   💡	Go back to IIS, sites -> Default -> osTicket
    
-   "💡	Double-click PHP Manager
+   💡	Double-click PHP Manager
    
-   "💡	Click “Enable or disable an extension”
+   💡	Click “Enable or disable an extension”
    
-   "💡 Enable: php_imap.dll
+   💡 Enable: php_imap.dll
    
-   '💡	Enable: php_intl.dll
+   💡	Enable: php_intl.dll
    
-   "💡	Enable: php_opcache.dll
+   💡	Enable: php_opcache.dll
    
-   '💡	Refresh the osTicket site in your browse, observe the changes
+   💡	Refresh the osTicket site in your browse, observe the changes
 
 
 ![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/9727892e-a80b-437b-b0f6-6823e4098eeb)
@@ -405,10 +389,10 @@ Default email (receives email from customers)
 
 From the Installation Files, download and install HeidiSQL.
 
-"💡Open Heidi SQL
-"💡Create a new session, root/Password1
-"💡Connect to the session
-"💡Create a database called “osTicket”
+💡Open Heidi SQL
+💡Create a new session, root/Password1
+💡Connect to the session
+💡Create a database called “osTicket”
 
 
  ![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/03bf4534-299e-4538-b50d-2b7d7f3f03fa)
@@ -422,10 +406,37 @@ From the Installation Files, download and install HeidiSQL.
 
 ![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/e88d45b9-19fa-420b-8095-b12795096c94)
 
+Continue setting up on the browser/filling out osTicket form
+💡Enter MY SQL Username
+💡Enter MySQL Password
+
+![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/8d9f44ac-5713-4239-817b-d09756f3c18c)
+
+Go to Heidi and create a new database called osTicket
+
+![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/e4a30430-49bf-47d2-ae92-a83c4de58ab2)
+
+Go back to browser and type in osTicket on the form where it reads mySQL Database: Click on Install Now 
+
+![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/82c0c9f4-011a-4be9-b6e7-77edc3bd507d)
+
+Completed osTicket
+
+![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/b4b018a7-b212-4057-bf94-3639968330bf)
+![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/9ed5f691-7502-4278-a0b6-e333dc95f3fa)
 
 
+Congratulations! '🍾 osTicket has successfully been installed!! 
 
+![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/4d88929d-022b-46c6-83a4-ea48f70d89f5)
 
+Clean up time: 
+
+    💡 Delete: C:\inetpub\wwwroot\osTicket\setup
+   
+    💡Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+
+![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/a8ce14a5-f0e2-4276-8d6c-95cd8e8c4d61)
 
 
 <
@@ -434,6 +445,6 @@ From the Installation Files, download and install HeidiSQL.
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
 </p>
 <br />
