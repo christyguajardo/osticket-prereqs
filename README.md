@@ -4,7 +4,7 @@
 <h1>osTicket - Prerequisites and Installation</h1>
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
-We are starting the demonstration with the fact that the Virtual Machine and Resource Group already created. 
+We are starting the demonstration with the fact that the Virtual Machine and Resource Group have already been created in Azure. 
 
 There are alot of steps in this demonstration. I hope to walk you through the process and with supporting print screens and instructions. 
 
@@ -278,7 +278,7 @@ Install osTicket v1.15.8
  
    💡Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”
 
-once downloaded, open file 
+Once downloaded, open file 
 
 Double click ![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/83757201-2cb7-493f-b03d-5941d4000f30)
 
@@ -286,7 +286,7 @@ Double click ![image](https://github.com/christyguajardo/osticket-prereqs/assets
 ![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/8a8bf1ce-6461-48d2-adce-4f831871a484)
 
 
-OPen additional file --- Drag upload folder to wwwrroot
+Open additional file --- Drag upload folder to wwwrroot
 
 ![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/b1181189-fb01-4f1c-9401-1471f7759586)
 
@@ -315,6 +315,7 @@ We have made it to osTicket! Congratulations! "👏
 ![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/04edf95e-67ee-4055-a9a0-938cd9ec0a8f)
 
 Note that some extensions are not enabled
+
    💡	Go back to IIS, sites -> Default -> osTicket
    
    💡	Double-click PHP Manager
@@ -388,7 +389,9 @@ From the Installation Files, download and install HeidiSQL.
 ![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/e88d45b9-19fa-420b-8095-b12795096c94)
 
 Continue setting up on the browser/filling out osTicket form
+
 💡Enter MY SQL Username
+
 💡Enter MySQL Password
 
 ![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/8d9f44ac-5713-4239-817b-d09756f3c18c)
