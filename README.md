@@ -423,7 +423,7 @@ Clean up time:
 ![image](https://github.com/christyguajardo/osticket-prereqs/assets/147533626/a8ce14a5-f0e2-4276-8d6c-95cd8e8c4d61)
 
 
-This concludes the demonstration. In the next tutorial, we are going to explore osTicket lifecycle. 
+This concludes the demonstration. In the next tutorial, we are going to explore post installation and configurations for osTickets. 
 
 
 
