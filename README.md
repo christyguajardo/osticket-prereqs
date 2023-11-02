@@ -6,11 +6,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 We are starting the demonstration with the fact that the Virtual Machine and Resource Group have already been created in Azure. 
 
-There are alot of steps in this demonstration. I hope to walk you through the process and with supporting print screens and instructions. 
-
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
+There are alot of steps in this demonstration. I will walk you through the process with supporting print screens and instructions. 
 
 <h2>Environments and Technologies Used</h2>
 
